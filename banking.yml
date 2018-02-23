@@ -1,3 +1,8 @@
+spring:
+  application:
+    database: banking
+    eventsCollectionName: events
+    snapshotCollectionName: snapshots
 server:
   port: 9000
 message: Hello world
