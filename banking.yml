@@ -1,4 +1,10 @@
 spring:
+  rabbitmq:
+    hostname: localhost
+    username: guest
+    password: guest
+    exchangeName: bankingexchange
+    queueName: banking
   application:
     database: banking
     eventsCollectionName: events
